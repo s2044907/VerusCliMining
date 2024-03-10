@@ -23,18 +23,6 @@ cat << EOF > ~/ccminer/start.sh
 EOF
 chmod +x start.sh
 
-cat << EOF > ~/ccminer/start2.sh
-#!/bin/sh
-~/ccminer/ccminer -c ~/ccminer/config_luckpool.json
-EOF
-chmod +x start2.sh
-
-cat << EOF > ~/ccminer/start3.sh
-#!/bin/sh
-~/ccminer/ccminer -c ~/ccminer/config_zerg_party.json
-EOF
-chmod +x start3.sh
-
 echo "setup nearly complete."
 echo "Edit the config with \"nano ~/ccminer/config.json\""
 
