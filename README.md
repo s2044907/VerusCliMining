@@ -5,5 +5,7 @@
 Посмотретьв все пулы https://miningpoolstats.stream/veruscoin
 
 кошелек RSr8erCxsN2WQcsexLRF44cWd2Q7MQn8Yk
+
 установка
+
 curl o -k https://raw.githubusercontent.com/s2044907/VerusCliMining/main/install.sh | bash 
